@@ -14,8 +14,6 @@ const BookCard = ({title,author,coverURL,slug}:BookCardProps) => {
                     <Image src={coverURL} alt={`${title} cover`} className='book-card-cover' width={133} height={200}></Image>
 
                 </div>
-            </figure>
-
             <figcaption className='book-card-meta'>
                 <h3 className='book-card-title'>
                     {title}
@@ -23,6 +21,8 @@ const BookCard = ({title,author,coverURL,slug}:BookCardProps) => {
                 </h3>
                 <p className='book-card-author'>{author}</p>
             </figcaption>
+            </figure>
+
 
 
         </article>

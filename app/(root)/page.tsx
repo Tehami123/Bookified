@@ -6,7 +6,7 @@ import BookCard from '@/components/BookCard'
 
 const page = () => {
   return (
-   <div className='bg-[var(--bg-tertiary)] wrapper conatiner'>
+   <div className='bg-[var(--bg-tertiary)] wrapper container'>
     <HeroSection/>
 
      <div className='library-books-grid'>
